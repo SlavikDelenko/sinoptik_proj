@@ -1,1 +1,0 @@
-const mrbeast = 1488
