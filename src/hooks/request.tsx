@@ -28,7 +28,7 @@ const useWeatherApi = (city: string): WeatherApiHook => {
         const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;  
         
         const response = await axios.get<WeatherData>(apiUrl);  
-        
+        ""
         setWeatherData(response.data); 
         setLoading(false); 
         setError(null); 
